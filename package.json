@@ -1,0 +1,49 @@
+{
+  "name": "native-app-icon-picker",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/IconPicker.js",
+  "types": "dist/IconPicker.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sivamani-18/native-app-icon-picker.git"
+  },
+  "keywords": [
+    "react-native",
+    "icon-picker",
+    "native-app-icon-picker",
+    "react-native-icon-picker",
+    "icon-picker",
+    "picker-native-icon",
+    "vector-icon-picker",
+    "native-icon-picker",
+    "ios-android-icon-picker",
+    "android-native-icon-picker",
+    "ios-native-icon-picker",
+    "android-icon-picker"
+  ],
+  "author": "Sivamani-18",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sivamani-18/native-app-icon-picker/issues"
+  },
+  "homepage": "https://github.com/Sivamani-18/native-app-icon-picker#readme",
+  "dependencies": {
+    "@types/prop-types": "^15.7.5",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.72.0",
+    "react-native-vector-icons": "^9.2.0"
+  }
+}
