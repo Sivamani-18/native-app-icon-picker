@@ -42,7 +42,7 @@ import IconPicker from 'native-app-icon-picker';
 
 
 
-For more detailed usage and available props, please refer to the [documentation](https://github.com/sivamani-18/native-app-icon-picker).
+For more detailed usage and available props, please refer to the [documentation](https://snack.expo.dev/@sivamani-18/react-native-app-iconpicker).
 
 # Example
 
