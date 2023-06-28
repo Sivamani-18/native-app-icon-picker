@@ -131,6 +131,21 @@ const styles = StyleSheet.create({
 export default App;
 ```
 
+## Props
+
+The `IconPicker` component accepts the following props:
+
+| Prop                       | Type                          | Description                                                                   |
+| -------------------------- | ----------------------------- | ----------------------------------------------------------------------------- |
+| `headerTitle`              | `string`                      | The title displayed in the header of the icon picker modal.                    |
+| `showIconPicker`           | `boolean`                     | Determines whether the icon picker modal is visible.                           |
+| `onSelect`                 | `function`                    | Callback function invoked when an icon is selected.                            |
+| `toggleIconPicker`         | `function`                    | Callback function invoked to toggle the visibility of the icon picker modal.   |
+| `iconDetails`              | `array` of `IconDetail` objects    | An array of icon details containing the icon families and icons to be displayed.|
+| `selectedIcon`             | `SelectedIcon` object           | The currently selected icon.                                                  |
+| `selectedIconContainerStyle` | `object` or `StyleProp<ViewStyle>` | Custom styles applied to the selected icon container.                          |
+| `content`                  | `ReactNode`                   | Custom content displayed when the icon picker is closed.                       |
+
 # Documentation
 
 For detailed documentation and examples, please refer to the [GitHub repository](https://github.com/sivamani-18/native-app-icon-picker).
