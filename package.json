@@ -1,6 +1,6 @@
 {
   "name": "react-native-app-icon-picker",
-  "version": "1.1.1",
+  "version": "1.1.4",
   "private": false,
   "description": "Native App Icon Picker is a React Native component that allows you to select icons from various icon libraries.",
   "main": "dist/IconPicker.js",
