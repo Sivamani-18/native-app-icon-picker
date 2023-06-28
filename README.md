@@ -90,12 +90,12 @@ const App = () => {
         iconDetails={iconDetails}
         selectedIcon={selectedIcon}
         selectedIconContainerStyle={styles.selectedIconContainer}
+        content={<Text style={styles.openPickerText} onPress={toggleIconPicker}>
+        Open Icon Pickers
+      </Text>}
       />
       <Text style={styles.selectedIconText}>
         Selected Icon: {selectedIcon ? selectedIcon.icon : 'None'}
-      </Text>
-      <Text style={styles.openPickerText} onPress={toggleIconPicker}>
-        Open Icon Picker
       </Text>
     </View>
   );
