@@ -57,7 +57,6 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     alignContent: 'center',
-    borderWidth: 2,
   },
   selectedItem: {
     backgroundColor: COLOR_DARK_GREY,
